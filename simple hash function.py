@@ -12,5 +12,4 @@ def hash_fun(strs):
         str_hash+=random.choice(string.hexdigits[:16])
     return str_hash
 
-
 #hash_fun('hi') --> 'f843c001'
